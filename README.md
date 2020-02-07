@@ -1,3 +1,3 @@
 Created by Shengkai, with the help of Start Bootstrap.
 
-Please visit shengkaixu.com
+Please visit <a href="shengkaixu.com"> shengkaixu.com </a>
