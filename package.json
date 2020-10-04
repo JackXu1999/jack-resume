@@ -1,11 +1,11 @@
 {
     "title": "Resume",
-    "name": "startbootstrap-resume",
+    "name": "shengkaixu-resume",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Resume for Shengkai Xu.",
     "keywords": [
         "css",
         "sass",
@@ -14,15 +14,16 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "homepage": "https://shengkaixu.com",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "url": "https://github.com/JackXu1999/resume",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Shengak Xu (https://github.com/JackXu1999)"
     ],
     "repository": {
         "type": "git",
