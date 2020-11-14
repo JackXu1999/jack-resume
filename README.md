@@ -1,3 +1,4 @@
-Created by Shengkai, with the help of Start Bootstrap.
+# Resume Website
+Created by Shengkai Xu, CS undergrad at Emory University, and it has been [published](http://shengkaixu.com/). Using HTML, CSS, Javascript and Bootstarp.
 
-Please visit <a href="http://shengkaixu.com/" target="_blank"> shengkaixu.com </a>
+![website snapshot](/img/snapshot.png)
