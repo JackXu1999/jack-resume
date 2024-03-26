@@ -27,7 +27,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/JackXu1999/jack-resume.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
