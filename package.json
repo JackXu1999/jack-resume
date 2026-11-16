@@ -3,7 +3,10 @@
     "name": "shengkaixu-resume",
     "version": "5.0.8",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "vite --host 127.0.0.1 --port 3000",
+        "build": "node scripts/build.mjs",
+        "check:vendor": "node scripts/check-vendor.mjs",
+        "prebuild": "npm run check:vendor"
     },
     "description": "Resume for Shengkai Xu.",
     "keywords": [
@@ -30,22 +33,17 @@
         "url": "https://github.com/JackXu1999/jack-resume.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.10.2",
+        "@fortawesome/fontawesome-free": "6.5.1",
         "bootstrap": "4.3.1",
         "jquery": "^3.7.1",
         "jquery.easing": "^1.4.1"
     },
+    "private": true,
     "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "autoprefixer": "10.6.2",
+        "postcss": "8.5.33",
+        "sass": "1.108.2",
+        "terser": "5.51.2",
+        "vite": "8.3.8"
     }
 }
